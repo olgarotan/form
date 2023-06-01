@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HW7-1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container wrapper">
+      <p><b>Пожалуйста, укажите Ваше имя и фамилию.</b></p>
+      <p class="text">
+        Чтобы облегчить общение и поиск друзей, у нас приняты настоящие имена и
+        фамилии
+      </p>
+    </div>
+    <div class="wrapper-form">
+      <form class="name" action="#">
+        <input type="text" placeholder="Ваше имя" />
+        <input type="text" placeholder="Ваша фамилия" />
+         <p class="birthday">Дата рождения</p> 
+         <div class="select">
+           <select name="number">
+            <option value="" hidden>День</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+           </select>
+           <select name="month">
+            <option value="" hidden>Месяц</option>
+            <option value="Январь">Январь</option>
+            <option value="Февраль">Февраль</option>
+            <option value="Март">Март</option>
+            <option value="Апрель">Апрель</option>
+           </select>
+           <select name="number">
+            <option value="" hidden>Год</option>
+            <option value="2000">2000</option>
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+            <option value="2003">2003</option>
+           </select>  
+           </div>           
+        <button type="submit">Зарегистрироваться</button>
+        <p class="or">или</p>
+        <button type="button">Продолжить с Facebook</button>
+      </form>
+  </div>
+  </body>
+</html>
